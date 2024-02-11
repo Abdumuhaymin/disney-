@@ -201,21 +201,100 @@ function App() {
           </div>
         </section>
         <section id="devices">
-          <h2 className="devices__title">Available on your favorite devices</h2>
-          <ul className="devices__list">
-            <li className="devices__item">
-              <img src={tv} alt="device" className="devices__img" />
-            </li>
-            <li className="devices__item">
-              <img src={comp} alt="device" className="devices__img" />
-            </li>
-            <li className="devices__item">
-              <img src={phone} alt="device" className="devices__img" />
-            </li>
-            <li className="devices__item">
-              <img src={game} alt="device" className="devices__img" />
-            </li>
-          </ul>
+          <div className="container">
+            <h2 className="devices__title">
+              Available on your favorite devices
+            </h2>
+            <ul className="devices__list">
+              <li className="devices__item">
+                <img src={tv} alt="device" className="devices__img" />
+                <h3 className="devices__sub">TV</h3>
+                <ul className="devices__name">
+                  <li className="tv__item">
+                    <p className="tv__devices">Amazon Fire TV</p>
+                  </li>
+                  <li className="tv__item">
+                    <p className="tv__devices">Android TV devices</p>
+                  </li>
+                  <li className="tv__item">
+                    <p className="tv__devices">AppleTV</p>
+                  </li>
+                  <li className="tv__item">
+                    <p className="tv__devices">Chromecast</p>
+                  </li>
+                  <li className="tv__item">
+                    <p className="tv__devices">LG TV</p>
+                  </li>
+                  <li className="tv__item">
+                    <p className="tv__devices">Roku</p>
+                  </li>
+                  <li className="tv__item">
+                    <p className="tv__devices">Samsung</p>
+                  </li>
+                  <li className="tv__item">
+                    <p className="tv__devices">Xfinity X1 & Flex</p>
+                  </li>
+                  <li className="tv__item">
+                    <p className="tv__devices">Hisense </p>
+                  </li>
+                  <li className="tv__item">
+                    <p className="tv__devices">Panasonic</p>
+                  </li>
+                </ul>
+              </li>
+              <li className="devices__item">
+                <img src={comp} alt="device" className="devices__img" />
+                <h3 className="devices__sub">Computer</h3>
+                <ul className="devices__name">
+                  <li className="comp__item">
+                    <p className="tv__devices">Chrome OS</p>
+                  </li>
+                  <li className="comp__item">
+                    <p className="tv__devices">MacOS</p>
+                  </li>
+                  <li className="comp__item">
+                    <p className="tv__devices">Windows PC</p>
+                  </li>
+                </ul>
+              </li>
+              <li className="devices__item">
+                <img src={phone} alt="device" className="devices__img" />
+                <h3 className="devices__sub">Mobile & Tablet</h3>
+                <ul className="devices__name">
+                  <li className="mobile__item">
+                    <p className="tv__devices">Amazon Fire Tablets</p>
+                  </li>
+                  <li className="mobile__item">
+                    <p className="tv__devices">Android Phones & Tablets</p>
+                  </li>
+                  <li className="mobile__item">
+                    <p className="tv__devices">iPhone and iPad</p>
+                  </li>
+                </ul>
+              </li>
+              <li className="devices__item">
+                <img src={game} alt="device" className="devices__img" />
+                <h3 className="devices__sub">Game Consoles</h3>
+                <ul className="devices__name">
+                  <li className="game__item">
+                    <p className="tv__devices">PS4</p>
+                  </li>
+                  <li className="game__item">
+                    <p className="tv__devices">PS5</p>
+                  </li>
+                  <li className="game__item">
+                    <p className="tv__devices">Xbox One</p>
+                  </li>
+                  <li className="game__item">
+                    <p className="tv__devices">Xbox Series X</p>
+                  </li>
+                  <li className="game__item">
+                    <p className="tv__devices">Xbox Series S</p>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
         </section>
       </MainLayout>
     </>
