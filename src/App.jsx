@@ -296,6 +296,39 @@ function App() {
             </ul>
           </div>
         </section>
+        <section id="quest">
+          <div className="container">
+            <h2 className="quest__link">Frequently Asked Questions</h2>
+            <ul className="quest__list">
+              <li className="quest__item">
+                <p className="quest__text">What is Disney+?</p>
+                <button className="quest__btn">+</button>
+              </li>
+              <li className="quest__item">
+                <p className="quest__text">How much does Disney+ cost?</p>
+                <button className="quest__btn">+</button>
+              </li>
+              <li className="quest__item">
+                <p className="quest__text">What can I watch on Disney+?</p>
+                <button className="quest__btn">+</button>
+              </li>
+              <li className="quest__item">
+                <p className="quest__text">Where can I watch Disney+?</p>
+                <button className="quest__btn">+</button>
+              </li>
+              <li className="quest__item">
+                <p className="quest__text">
+                  What's included on the Disney+ plans with and without ads?
+                </p>
+                <button className="quest__btn">+</button>
+              </li>
+              <li className="quest__item">
+                <p className="quest__text">What is the Disney Bundle?</p>
+                <button className="quest__btn">+</button>
+              </li>
+            </ul>
+          </div>
+        </section>
       </MainLayout>
     </>
   );
